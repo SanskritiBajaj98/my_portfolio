@@ -1,4 +1,4 @@
-baseURL: https://example.com/
+baseURL: https://my-website-sanskriti.netlify.app
 languageCode: en-us
 title: A Hugo theme for creating Reveal.js presentations
 disableKinds:
