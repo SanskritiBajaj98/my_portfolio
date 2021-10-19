@@ -5,7 +5,7 @@ paginate: 5
 params:
   centerTheme: no
   contentTypeName: post
-  fullWidthTheme: no
+  fullWidthTheme: yes
   showMenuItems: 2
   themeColor: green
 languages:
@@ -27,5 +27,5 @@ languages:
         logoText: Portfolio - Sanskriti Bajaj
     readMore: Read more
     readOtherPosts: Read other posts
-    subtitle: A simple, retro theme for Hugo
+    subtitle: Find all my data analytics projects here
     title: Portfolio - Sanskriti Bajaj
