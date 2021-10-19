@@ -1,31 +1,28 @@
-baseurl: https:trusting-panini-f9cca4.netlify.app
+baseURL: https://example.com/
 languageCode: en-us
-theme: hugo-theme-terminal
-paginate: 5
+title: A Hugo theme for creating Reveal.js presentations
+disableKinds:
+  - sitemap
+  - RSS
+theme: reveal-hugo
+author:
+  name: Josh Dzielak
+markup:
+  goldmark:
+    renderer:
+      unsafe: yes
+  highlight:
+    codeFences: no
+    style: tango
+outputFormats:
+  Reveal:
+    baseName: index
+    isHTML: yes
+    mediaType: text/html
 params:
-  centerTheme: no
-  contentTypeName: post
-  fullWidthTheme: no
-  showMenuItems: 2
-  themeColor: orange
-languages:
-  en:
-    copyright: ''
-    keywords: ''
-    menu:
-      main:
-        - identifier: about
-          name: About
-          url: /about
-        - identifier: showcase
-          name: Showcase
-          url: /showcase
-    menuMore: Show more
-    params:
-      logo:
-        logoHomeLink: /
-        logoText: Portfolio website Sanskriti
-    readMore: Read more
-    readOtherPosts: Read other posts
-    subtitle: A simple, retro theme for Hugo
-    title: Terminal
+  reveal_hugo:
+    history: yes
+    templates:
+      grey:
+        background: '#424242'
+        transition: convex
