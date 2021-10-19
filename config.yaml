@@ -24,7 +24,7 @@ languages:
     params:
       logo:
         logoHomeLink: /
-        logoText: Terminal
+        logoText: Portfolio - Sanskriti Bajaj
     readMore: Read more
     readOtherPosts: Read other posts
     subtitle: A simple, retro theme for Hugo
