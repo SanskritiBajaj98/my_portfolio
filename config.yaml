@@ -1,7 +1,7 @@
 baseURL: http://example.org/
 languageCode: en-us
 title: Forty
-theme: forty
+theme: terminal
 googleAnalytics: ''
 disqusShortname: ''
 params:
