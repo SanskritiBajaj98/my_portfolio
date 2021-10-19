@@ -7,7 +7,7 @@ params:
   contentTypeName: post
   fullWidthTheme: no
   showMenuItems: 2
-  themeColor: orange
+  themeColor: green
 languages:
   en:
     copyright: ''
@@ -28,4 +28,4 @@ languages:
     readMore: Read more
     readOtherPosts: Read other posts
     subtitle: A simple, retro theme for Hugo
-    title: Terminal
+    title: Portfolio - Sanskriti Bajaj
